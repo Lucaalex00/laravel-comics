@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('page-title', 'aboutme')
+@section('page-title', 'aboutus')
 @section ('content')
 <p class="p-5 bg-opacity-75 bg-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur esse quos at, repellendus enim recusandae sequi accusamus eligendi officiis fugiat minima quasi rem minus cupiditate hic laborum doloribus nemo et?
     Aspernatur, neque. Laudantium incidunt voluptates, veritatis eum ratione maiores doloremque repellat necessitatibus ad molestiae minima obcaecati autem inventore tempore neque rem excepturi doloribus accusantium molestias? Labore ex facilis neque commodi!

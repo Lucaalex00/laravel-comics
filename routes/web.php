@@ -132,6 +132,11 @@ Route::get('products', function () {
     /*   dd($products); */
     return view('products', compact('products'));
 })->name('products');
+
 Route::get('aboutus', function () {
     return view('aboutus');
 })->name('aboutus');
+
+Route::get('minigame', function () {
+    return view('minigame');
+})->name('minigame');

@@ -1,7 +1,7 @@
 @import '~bootstrap/scss/bootstrap';
 
 #site_header{
-    height: 15vh;
+    height: 20vh;
     background-color: turquoise;
     border:1px solid black;
     display: flex;
@@ -24,7 +24,7 @@
     }
 };
 #site_main{
-    height: calc(100vh - 15vh - 20vh);
+    height: calc(100vh - 20vh - 20vh);
     overflow-y: auto;
     background-image: url(../img/jumbotron.jpg);
     background-size: cover;
@@ -51,6 +51,7 @@
     >.unordered-list{
         list-style-type: none;
         font-size: 0.8rem;
+        margin-top: 1rem;
         >li{
             >a{
                 color: white;
@@ -95,12 +96,14 @@
 .bg-op{
     opacity: 80%;
 }
+// WELCOME MESSAGE ANIMATED
 .alert_message{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    animation: scrollTitle 2s alternate infinite;
+    animation: scrollTitle 1s alternate infinite;
 }
+
 @keyframes scrollTitle {
     0% {
         top: 0px;
@@ -112,4 +115,54 @@
         font-size: 1rem;
         top: 100%;
     }
+}
+
+//MINIGAMES ANIMATED
+.container-mg {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    border: 2px solid black;
+    overflow: hidden;
+    background-color: black;
+    border: 1px solid red;
+}
+
+.sphere-mg {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+
+    0%, 100% {
+        transform: translate(-50%, -50%);
+        background-color: pink;
+    }
+
+    25% {
+        transform: translate(-50%, -50%) translateY(-190px);
+        background-color: red;
+    }
+
+    50% {
+        transform: translate(-50%, -50%);
+        background-color: yellow;
+    }
+
+    75% {
+        transform: translate(-50%, -50%) translateY(190px);
+        background-color: green;
+    }
+}
+
+.container-mg:hover .sphere-mg {
+    background-color: blue;
 }
