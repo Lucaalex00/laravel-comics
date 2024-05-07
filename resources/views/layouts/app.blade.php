@@ -20,7 +20,7 @@
     <!-- HEADER -->
     @include ('partials.header')
 
-    <main id="site_main">
+    <main id="site_main" class="{{Route::currentRouteName() === 'home' ? 'bg-op position-relative overflow-hidden' : ''}} ">
         @yield ('content')
     </main>
     <!-- /#site_main -->

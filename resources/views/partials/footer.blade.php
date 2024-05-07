@@ -1,6 +1,6 @@
 <footer id="site_footer">
     <ul class="unordered-list">
-        <li><a href="contact">Contatti</a></li>
+        <li><a href="/">Home</a></li>
         <li><a href="aboutus">About Us</a></li>
         <li><a href="products">Products </a></li>
         <li>

@@ -1,10 +1,9 @@
 @import '~bootstrap/scss/bootstrap';
 
 #site_header{
-    height: 20vh;
+    height: 15vh;
     background-color: turquoise;
     border:1px solid black;
-    padding: 1rem;
     display: flex;
     flex-direction: column;
     >h1{
@@ -13,7 +12,7 @@
     >.navbar{
         background-color: rgba($color: black, $alpha: 0.4);
         width:30%;
-        margin:auto;
+        margin:0 auto;
         border-radius: 10px;
         >a{
             color:white;
@@ -25,10 +24,21 @@
     }
 };
 #site_main{
-    height: 60vh;
+    height: calc(100vh - 15vh - 20vh);
     overflow-y: auto;
     background-image: url(../img/jumbotron.jpg);
     background-size: cover;
+}
+.card{
+    overflow-y: auto;
+    height: 400px;
+    &:hover{
+        background-color: black;
+        color: white;
+        scrollbar-color:  white black;
+        scroll-behavior: smooth;
+        scrollbar-width: thin;
+    }
 }
 #site_footer{
     height: 20vh;
@@ -75,7 +85,31 @@
     }
 }
 
+
+// UTILITIES
+
 .nav-active{
     font-size: 1.2rem;
     color: black !important;
+}
+.bg-op{
+    opacity: 80%;
+}
+.alert_message{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: scrollTitle 2s alternate infinite;
+}
+@keyframes scrollTitle {
+    0% {
+        top: 0px;
+        font-size: 5rem;
+        width: 100%;
+    }
+
+    100% {
+        font-size: 1rem;
+        top: 100%;
+    }
 }

@@ -1,0 +1,24 @@
+@extends('layouts.app')
+@section('page-title', 'aboutme')
+@section ('content')
+<p class="p-5 bg-opacity-75 bg-secondary">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur esse quos at, repellendus enim recusandae sequi accusamus eligendi officiis fugiat minima quasi rem minus cupiditate hic laborum doloribus nemo et?
+    Aspernatur, neque. Laudantium incidunt voluptates, veritatis eum ratione maiores doloremque repellat necessitatibus ad molestiae minima obcaecati autem inventore tempore neque rem excepturi doloribus accusantium molestias? Labore ex facilis neque commodi!
+    Distinctio, officiis. Nobis sapiente ipsam, qui temporibus alias distinctio velit magnam earum impedit fuga nemo aspernatur, nostrum dolorem nam libero dolorum, eligendi a recusandae facere? Cupiditate quia deleniti natus doloribus.
+    Aut harum laboriosam nobis! Repudiandae quisquam cupiditate voluptatibus cum ratione fugit nemo veritatis, sunt assumenda repellat modi voluptatem alias sit provident quis quod molestiae neque doloribus nulla? Fuga, accusamus repellat.
+    Omnis temporibus, amet similique corporis aut, a eaque non nihil, veniam velit voluptates accusantium cum iste molestiae? Ab et consequatur ipsa natus, cupiditate commodi error, nobis corporis vitae, distinctio atque?
+    Facere consectetur esse eius voluptatum eum necessitatibus officia quisquam qui ipsa, ducimus culpa voluptate exercitationem atque architecto dignissimos ut totam adipisci quos autem velit hic earum! Praesentium consequuntur soluta nihil?
+    Impedit nisi ipsam et id ad officia, quod at quia repellendus enim tenetur repellat odit excepturi, omnis architecto tempora? Amet ducimus delectus sunt explicabo aperiam expedita enim. Consequuntur, ut nemo.
+    Doloribus porro dolore omnis reiciendis quidem, animi esse iste tenetur obcaecati quis voluptates eligendi praesentium sapiente nam ipsum exercitationem, ducimus libero adipisci. Veritatis quibusdam nulla totam distinctio eaque earum error?
+    Deleniti voluptate officiis nobis mollitia maxime error sint, provident eius similique nam! Possimus quaerat et consequuntur aperiam quisquam commodi iusto? Illum nostrum veniam cupiditate iure quod ratione libero sequi ducimus.
+    Minima pariatur assumenda labore natus quisquam voluptates tempora ipsam id velit alias, possimus voluptatem impedit ratione perferendis accusamus! Cupiditate quasi explicabo nemo cum saepe vitae sit dolor dignissimos eius odio.
+    Officiis ratione eaque libero nisi autem quos atque tenetur eius neque voluptates eligendi minus debitis excepturi, aspernatur molestiae molestias? Cum quae enim architecto odio aliquid obcaecati atque ut neque consequuntur!
+    Eum dignissimos cumque ad facilis quis exercitationem quidem dolores necessitatibus sint, suscipit deleniti assumenda molestiae dolore vitae sed voluptatum ea at ab quam perferendis a excepturi? Provident voluptate corrupti aperiam.
+    Repudiandae odit nulla dicta quidem. Suscipit illo harum molestias, provident dolorem eligendi rem assumenda? Ipsum dolor incidunt ut architecto voluptate et eaque excepturi necessitatibus magnam soluta, possimus maxime explicabo. Dignissimos.
+    Ducimus velit laudantium, eius asperiores nisi a neque error itaque fugiat quas accusantium minima molestiae? Molestiae, excepturi vero adipisci repellat asperiores vitae totam accusantium sit, quis sunt numquam, nemo qui.
+    Minima quam, accusantium recusandae, enim culpa unde id esse voluptates explicabo modi reprehenderit dolorum, eius harum doloribus quos fuga. Qui quidem sint placeat quia asperiores nulla dolor deleniti nostrum perspiciatis.
+    Natus aliquid voluptatum quidem repellendus dignissimos, adipisci, totam fuga earum voluptates quas veritatis consequuntur, aut quisquam perspiciatis impedit cumque eaque quis tenetur est corporis fugit tempore ullam! Aperiam, incidunt nisi.
+    Nobis voluptate odio corporis eveniet? Eaque nisi, enim minus consectetur labore architecto ab hic modi similique vitae, ipsum magni facere doloremque reprehenderit voluptatibus? Asperiores eveniet quia assumenda! Non, quos ea.
+    Illo autem delectus possimus nobis, optio commodi hic beatae ipsum nesciunt ut, eaque, facilis quam iste deleniti esse quaerat voluptate fuga nisi? Officia omnis enim maiores ex eaque molestiae sequi.
+    Dolorum temporibus consequatur ullam? Blanditiis possimus nihil tempore corporis cumque vitae sapiente tenetur, quibusdam delectus eum dolorem voluptate similique praesentium. Ipsam, repellat eum. Quidem neque voluptas sequi deleniti laudantium quaerat?
+    Iusto facilis enim tempora assumenda voluptatibus nisi ab quis? Consequatur nostrum magni voluptatibus impedit numquam earum aut dolorum! Qui similique autem ducimus voluptatibus animi corporis. Vel cupiditate nihil nemo voluptatibus.</p>
+@endsection
