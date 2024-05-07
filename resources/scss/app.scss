@@ -1,1 +1,81 @@
 @import '~bootstrap/scss/bootstrap';
+
+#site_header{
+    height: 20vh;
+    background-color: turquoise;
+    border:1px solid black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    >h1{
+        text-align: center;
+    }
+    >.navbar{
+        background-color: rgba($color: black, $alpha: 0.4);
+        width:30%;
+        margin:auto;
+        border-radius: 10px;
+        >a{
+            color:white;
+            transition: 1s;
+            &:hover{
+                color:black;
+            }
+        }
+    }
+};
+#site_main{
+    height: 60vh;
+    overflow-y: auto;
+    background-image: url(../img/jumbotron.jpg);
+    background-size: cover;
+}
+#site_footer{
+    height: 20vh;
+    background-color: rgb(0, 0, 115);
+    border: 1px solid black;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    >.unordered-list{
+        list-style-type: none;
+        font-size: 0.8rem;
+        >li{
+            >a{
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    color: gray;
+                }
+            }
+            >h6{
+                color: white;
+                text-decoration: underline;
+                
+            }
+            >img{
+                filter:brightness(50%) ;
+                &:hover{
+                filter: brightness(100%);
+                }
+            }
+        }
+    }
+    >div{
+        width: 100px;
+        height: 100px;
+        >img{
+            width: 100%;
+            height: 100%;
+        }
+        >p{
+            color: white;
+        }
+    }
+}
+
+.nav-active{
+    font-size: 1.2rem;
+    color: black !important;
+}

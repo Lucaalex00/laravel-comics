@@ -11,11 +11,15 @@
     <!-- Fonts -->
     <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
+    <!-- Styles -->
+    @vite('resources/js/app.js')
+
 </head>
 
 <body>
     <!-- HEADER -->
     @include ('partials.header')
+
     <main id="site_main">
         @yield ('content')
     </main>
