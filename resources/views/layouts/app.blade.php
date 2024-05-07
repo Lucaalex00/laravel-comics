@@ -15,7 +15,7 @@
 
 <body>
     <!-- HEADER -->
-
+    @include ('partials.header')
     <main id="site_main">
         @yield ('content')
     </main>

@@ -1,6 +1,4 @@
-@extends ('layouts.app');
-
 <footer id="site_footer">
-FOOTER
+    FOOTER
 </footer>
 <!-- /#site_footer -->
